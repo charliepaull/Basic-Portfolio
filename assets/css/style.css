@@ -100,9 +100,14 @@ p {
 
 #footer_container {
     width: 100%;
-    /* background-image: url(../images/tri_patternPortfolio.png); */
+    height: 45px;
+    background-color: #9cc2b9a6;
 }
 
 footer {
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #c4484a;
+    font-size: 22px;
+    padding-top: 15px;
 }
