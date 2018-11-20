@@ -3,7 +3,7 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Charlie's Portfolio</title>
+  <title>Charlie Paull</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -11,38 +11,38 @@
   <link rel="shortcut icon" type="image/png" href="assets/images/trianges.png"/>
 </head>
 <!-- Body will need margins on left & right (960px across) -->
-<body>
-    <div class="header_container">
+<body id="index">
+    <div class="header-container">
         <div id="nav">
             <nav id="logo">
         <!-- Header to have color change, and padding -->
                 <a href="index.html"><h1 id="name">Charlie Paull</h1></a>
         <!-- <a> tags will be floated right & need to find CSS style for dividers -->
                 <ul>
-                    <a href="index.html"><li>About</li></a>
-                    <a href="#"><li>Portfolio</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <a id="nav-about" href="index.html"><li>About</li></a>
+                    <a id="nav-portfolio" href="portfolio.html"><li>Portfolio</li></a>
+                    <a id="nav-contact" href="#"><li>Contact</li></a>
                 </ul>
             </nav>
         </div>
     </div>
-    <div class="main_content">
-        <div id="AboutMe">
+    <div class="index-content">
+        <div id="index-title">
             <div id="am-header">
-                <h2>About Me</h2>
+                <h2 id="about">About Me</h2>
             </div>
-        <hr>
-            <img src="assets/images/headshot1.png" alt="My Face" width="15%">
+        <hr id="break">
+            <img id="headshot"src="assets/images/headshot1.png" alt="My Face" width="15%">
             <div class="description">
-                <p class="d1">Hi, I'm Charlie, and I am learning to code. My hometown is Los Angeles,
+                <p class="content">Hi, I'm Charlie, and I am learning to code. My hometown is Los Angeles,
                 CA. I lived in the wonderful Pacific Northwest during college, and try to visit new places often.
                 </p>
                 <br>
-                 <p class="d2">My key interests are baseball, food (specifically Mexican and Asian food), and
+                 <p class="content">My key interests are baseball, food (specifically Mexican and Asian food), and
                 FiveThirtyEight political podcasts. I moved to SF a year ago and absolutely love it. My goal is explore
                 outside the city a more of the Bay in general.</p>
                 <br>
-                <p class="d3">I'm excited to learn full-stack coding through this class, but am
+                <p class="content">I'm excited to learn full-stack coding through this class, but am
                 specifically excited for back-end development, working with Node.js & machine learning with Python.</p>
             </div>
         </div>
